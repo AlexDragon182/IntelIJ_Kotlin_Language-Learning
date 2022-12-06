@@ -12,6 +12,6 @@ class Triangle(
         println("area is ${area()}")
     }
 
-    fun perimeter() = a+b+c
-    fun area() = sqrt((perimeter()/2)*((perimeter()/2)-a)*((perimeter()/2)-b)*((perimeter()/2)-c))
+    override fun perimeter() = a+b+c
+    override fun area() = sqrt((perimeter()/2)*((perimeter()/2)-a)*((perimeter()/2)-b)*((perimeter()/2)-c))
 }
