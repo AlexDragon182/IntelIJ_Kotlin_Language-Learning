@@ -122,3 +122,4 @@ fun alternatingPrint(array: Array<Int>) {
 
     }
 }
+//exceptions are an event that occurs in the running of a program and disrupts the normal flow, that we crash if we do not manage it correctly  
